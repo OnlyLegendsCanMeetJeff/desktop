@@ -1,11 +1,11 @@
 {
-  "name": "turbowarp-desktop",
-  "description": "Scratch mod with a compiler, dark mode, a bunch of addons, and more.",
+  "name": "munia-engine",
+  "description": "mostlegendarygames Game Engine.",
   "version": "1.14.4",
   "license": "GPL-3.0",
   "author": {
     "email": "contact@turbowarp.org",
-    "name": "Thomas Weber"
+    "name": "mostlegendarygames"
   },
   "scripts": {
     "fetch": "node scripts/download-library-files.js && node scripts/download-packager.js && node scripts/prepare-extensions.js",
@@ -158,8 +158,8 @@
       "category": "Development",
       "desktop": {
         "entry": {
-          "StartupWMClass": "turbowarp-desktop",
-          "Keywords": "scratch;"
+          "StartupWMClass": "munia-engine",
+          "Keywords": "engine;"
         }
       },
       "extraFiles": [
